@@ -1,0 +1,12 @@
+# Copia y pega tal cual:  para ingresar al env
+& "C:\Users\Usuario\AppData\Local\pypoetry\Cache\virtualenvs\avatar-docente-3_nf2Bp_-py3.11\Scripts\activate.ps1"
+
+
+
+convertir .ui a .py
+
+poetry run pyuic5 src/gui/ui/prueba1.ui \ -o src/gui/windows/_ui_prueba1.py
+
+convertir .qrc a .py
+
+pyrcc5 src/gui/resources/recursos.qrc -o src/gui/resources/recursos_rc.py

@@ -51,7 +51,7 @@ FILES = {
         __pycache__/
         """
     ),
-    ".env.example": "OPENAI_API_KEY=\n",
+    ".env": "OPENAI_API_KEY=\n",
     "pyproject.toml": textwrap.dedent(
         """
         [tool.poetry]

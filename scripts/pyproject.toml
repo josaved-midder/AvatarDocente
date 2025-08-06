@@ -1,0 +1,2 @@
+[tool.poetry.scripts]
+gen-ui = "bash -c 'pyuic5 src/gui/ui/*.ui -o src/gui/windows/_ui_$(basename {} .ui).py'"
