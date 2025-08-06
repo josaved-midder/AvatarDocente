@@ -1,0 +1,20 @@
+
+[tool.poetry]
+name = "avatar-docente"
+version = "0.1.0"
+description = "Aplicación de escritorio con avatar docente interactivo"
+authors = ["Tu Nombre <tu@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyQt5 = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+openai = "*"
+pyttsx3 = "*"
+bcrypt = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+black = "*"
+isort = "*"

@@ -1,0 +1,8 @@
+
+criterios:
+  comprension:
+    peso: 0.4
+  coherencia:
+    peso: 0.3
+  ortografia:
+    peso: 0.3
