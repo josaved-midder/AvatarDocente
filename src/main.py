@@ -1,11 +1,11 @@
+# src/main.py
 import sys
 from PyQt5.QtWidgets import QApplication
-from .gui.windows.ventanaPrincipal import Ui_ventanaPrincipal
-
+from .gui.windows.ventana_principal import VentanaPrincipal  # import relativo
 
 def main():
     app = QApplication(sys.argv)
-    w = Ui_ventanaPrincipal()
+    w = VentanaPrincipal()
     w.show()
     sys.exit(app.exec_())
 
