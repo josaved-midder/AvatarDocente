@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow
+from ...services.tts_service import TTSWorker
 from ._ui_main import Ui_MainWindow
-from services.tts_service import TTSWorker
 
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
