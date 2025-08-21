@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'src/gui/ui/ventana_principal.ui'
+# Form implementation generated from reading ui file 'src/gui/ui/main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -17,18 +17,16 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(130, 190, 75, 23))
-        self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(260, 200, 75, 23))
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(170, 70, 160, 80))
-        self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
-        self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
-        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
-        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.txtSalida = QtWidgets.QTextEdit(self.centralwidget)
+        self.txtSalida.setGeometry(QtCore.QRect(130, 50, 341, 151))
+        self.txtSalida.setObjectName("txtSalida")
+        self.btnHablar = QtWidgets.QPushButton(self.centralwidget)
+        self.btnHablar.setGeometry(QtCore.QRect(90, 270, 141, 61))
+        self.btnHablar.setObjectName("btnHablar")
+        self.lblEstado = QtWidgets.QLabel(self.centralwidget)
+        self.lblEstado.setGeometry(QtCore.QRect(290, 270, 161, 81))
+        self.lblEstado.setText("")
+        self.lblEstado.setObjectName("lblEstado")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
@@ -44,5 +42,4 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Aceptar"))
-        self.pushButton_2.setText(_translate("MainWindow", "Cancelar"))
+        self.btnHablar.setText(_translate("MainWindow", "Hablar"))

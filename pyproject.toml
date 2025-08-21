@@ -13,6 +13,7 @@ sqlalchemy = "*"
 openai = "*"
 pyttsx3 = "*"
 bcrypt = "*"
+pywin32 = "^311"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"

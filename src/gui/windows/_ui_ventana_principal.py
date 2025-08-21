@@ -17,9 +17,9 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(130, 190, 75, 23))
-        self.pushButton.setObjectName("pushButton")
+        self.boton = QtWidgets.QPushButton(self.centralwidget)
+        self.boton.setGeometry(QtCore.QRect(130, 190, 75, 23))
+        self.boton.setObjectName("boton")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(260, 200, 75, 23))
         self.pushButton_2.setObjectName("pushButton_2")
@@ -44,5 +44,5 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Aceptar"))
+        self.boton.setText(_translate("MainWindow", "Aceptar"))
         self.pushButton_2.setText(_translate("MainWindow", "Cancelar"))
